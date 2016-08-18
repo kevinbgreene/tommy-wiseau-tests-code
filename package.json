@@ -1,0 +1,26 @@
+{
+  "name": "tommy-wiseau-tests-code",
+  "version": "1.0.0",
+  "description": "Non-descript browser testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test-suite": "phantomjs ./src/phantomjs/setup.js http://localhost:3000",
+    "dummy": "node ./dummy/dummy-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevinbgreene/tommy-wiseau-tests-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinbgreene/tommy-wiseau-tests-code/issues"
+  },
+  "homepage": "https://github.com/kevinbgreene/tommy-wiseau-tests-code",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jsdom": "^9.4.2",
+    "phantomjs": "^2.1.7",
+    "qunitjs": "^2.0.1"
+  }
+}
